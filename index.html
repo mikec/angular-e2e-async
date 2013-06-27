@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+	<head>
+		<title>angular-e2e-async</title>
+		<script src="angular.js"></script>
+		<script src="app.js"></script>
+		<script src="test/angular-mocks.js"></script>
+	</head>
+	<body ng-controller="myCtrl">
+		<input type="button" value="get some data" ng-click="getData()" id="getDataButton"/>
+		<span id="dataDisplay">{{data}}</span>
+	</body>
+</html>
